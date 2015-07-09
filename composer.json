@@ -1,0 +1,34 @@
+{
+	"name" : "stinger/ckeditor-lineutils-bundle",
+	"type" : "symfony-bundle",
+	"description" : "Symfony2 Bundle to integrate the CKEditor plugin lineutils",
+	"keywords" : [
+		"ckeditor",
+		"lineutils",
+		"symfony"
+	],
+	"homepage" : "http://ckeditor.com/addon/lineutils",
+	"license" : [
+		"LGPL-3.0",
+		"GPL-3.0",
+		"MPL"
+	],
+	"authors" : [{
+			"name" : "Florian Meyer",
+			"email" : "florian.meyer@stinger-soft.net",
+			"homepage" : "http://www.stinger-soft.net"
+		}
+	],
+	"require" : {
+		"symfony/framework-bundle" : ">=2.1"
+	},
+	"suggest" : {
+		"Trsteel/ckeditor-bundle" : "The CKEditor Bundle we're using ;)"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Stinger\\CKEditorLineUtilsBundle" : ""
+		}
+	},
+	"target-dir" : "Stinger/CKEditorLineUtilsBundle"
+}
