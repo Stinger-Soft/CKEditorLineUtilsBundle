@@ -3,7 +3,7 @@ Symfony2 Bundle to integrate the CKEditor plugin LineUtils
 
 ## Current Version
 
-LineUtils v4.4.8
+LineUtils v4.5.1
 
 ## Installation
 
@@ -15,7 +15,7 @@ LineUtils v4.4.8
 {
     "require": {
 		// ...
-        "stinger/ckeditor-lineutils-bundle": "~4.4.8"
+        "stinger/ckeditor-lineutils-bundle": "~4.5.1"
     }
 }
 ```
